@@ -1,0 +1,31 @@
+h1, h3 {
+text-align: center;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 50px;
+}
+
+table {
+  margin: auto;
+}
+
+.vertical {
+  border-left:1px solid black;
+  border-right:1px solid black;
+}
+
+.horizontal {
+  border-bottom: 1px solid black;
+}
+
+#middleCenter {
+  border-bottom: 1px solid black;
+}
+
+#topCenter {
+  border-bottom: 1px solid black;
+}

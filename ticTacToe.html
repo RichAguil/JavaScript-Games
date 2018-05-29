@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="ticTacToe.css">
+  </head>
+  <body>
+
+    <h1>Tic Tac Toe</h1>
+    <h3> X goes first</h3>
+    <table>
+
+      <tr>
+        <td class = "horizontal" id = "topLeft" onClick = "clicked(this.id)"></td>
+        <td class = "vertical" id = "topCenter" onClick = "clicked(this.id)"></td>
+        <td class = "horizontal" id = "topRight" onClick = "clicked(this.id)"></td>
+      </tr>
+
+      <tr>
+        <td class = "horizontal" id = "middleLeft" onClick = "clicked(this.id)"></td>
+        <td class = "vertical" id = "middleCenter" onClick = "clicked(this.id)"></td>
+        <td class = "horizontal" id = "middleRight" onClick = "clicked(this.id)"></td>
+      </tr>
+
+      <tr>
+        <td id = "bottomLeft" onClick = "clicked(this.id)"></td>
+        <td class = "vertical" id = "bottomCenter" onClick = "clicked(this.id)"></td>
+        <td id = "bottomRight" onClick = "clicked(this.id)"></td>
+      </tr>
+
+    </table>
+
+  </body>
+  <script type="text/javascript" src = "ticTacToe.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+</html>
