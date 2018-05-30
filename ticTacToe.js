@@ -95,6 +95,8 @@ function checkVictory (boxArray) {
     } else if (s3 === s5 && s5 === s7 && s3 != undefined) {
       h3.textContent = s3 + " has won!";
       $("td").prop('onclick', null).off('click');
+    } else if (boxArray.length === 9) {
+      h3.textContent = "It's a draw!";
     };
   };
 };
